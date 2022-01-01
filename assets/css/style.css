@@ -56,10 +56,51 @@
 
   --font-family: 'Montserrat', sans-serif;
 }
+
+a {
+  color: var(--clr-primary-1);
+}
+a:hover {
+  color: var(--clr-primary-3);
+}
+
+/* 
+  @media (min-width: 544px)  {}
+  @media (min-width: 768px)  {}
+  @media (min-width: 992px)  {}
+  @media (min-width: 1200px) {}
+  @media (min-width: 1400px) {}
+  @media (min-width: 1600px) {} 
+*/
+
+.container-custom {
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .container-custom {
+    width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container-custom {
+    width: 1340px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container-custom {
+    width: 1520px;
+  }
+}
+
 /*Header*/
 .header {
   z-index: 2;
-  background-color: var(--clr-grey-1);
+  /* background-color: var(--clr-grey-1); */
 }
 /* .header_anchor {
   text-decoration: none;
@@ -89,4 +130,85 @@
   top: 20px;
   right: 16px;
   background-color: var(--clr-grey-10);
+}
+
+.dropdown_navbar_container {
+  height: 100vh;
+  padding: 0 1rem;
+}
+
+/* hero section */
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+}
+
+@media (min-width: 1400px) {
+  .hero_heading {
+    font-size: 3.2rem;
+  }
+}
+
+.hero_video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.hero_overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--primary-color);
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.hero_content {
+  z-index: 1;
+}
+
+hero_content_width {
+  max-width: 540px;
+}
+
+.hero_scroll_btn {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  transform: translate(-50);
+  z-index: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.hero_scroll_btn:hover {
+  color: black;
+  opacity: 0.8;
+}
+.hero_scroll_btn .bi {
+  transition-delay: 0.8s;
+  animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
 }

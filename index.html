@@ -56,27 +56,144 @@
 
     <!--NavBar-->
     <nav class="collapse navbar-collapse dropdown-nav" id="navbar">
-      <ul>
-        <li><a href="#">link1</a></li>
-        <li><a href="#">link2</a></li>
-        <li><a href="#">link3</a></li>
-        <li><a href="#">link1</a></li>
-        <li><a href="#">link2</a></li>
-        <li><a href="#">link3</a></li>
-      </ul>
-      <button
-        class="navbar-toggler"
-        id="navbar_closeBtn"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbar"
-        aria-controls="navbar"
-        aria-expanded="false"
-        aria-label="toggle-navigation"
+      <div
+        class="
+          dropdown_navbar_container
+          container-xxl
+          d-flex
+          align-items-start align-items-md-center
+        "
       >
-        <i class="bi bi-x-lg"></i>
-      </button>
+        <div class="row align-items-start">
+          <div class="col-12 col-sm-4 mt-4">
+            <a href="#" class="row text-decoration-none">
+              <div class="col-2 col-sm-12 mb-4">
+                <img
+                  src="/assets/images/bundo-kim-2AFuA0FNwEI-unsplash.jpg"
+                  alt="bamboo"
+                  class="img-fluid"
+                  width="5184"
+                  height="3456"
+                  loading="lazy"
+                />
+              </div>
+              <div class="col-10">
+                <h3>Fascinating Sound</h3>
+                <p>
+                  Description lorem20 maybeLorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Excepturi ratione voluptates
+                  quos consectetur totam similique tempora odio praesentium
+                  inventore expedita.
+                </p>
+                <p>Learn more<i class="bi bi-arrow-right-short"></i></p>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-4 mt-4">
+            <a href="#" class="row text-decoration-none">
+              <div class="col-2 col-sm-12 mb-4">
+                <img
+                  src="/assets/images/bundo-kim-2AFuA0FNwEI-unsplash.jpg"
+                  alt="bamboo"
+                  class="img-fluid"
+                  width="5184"
+                  height="3456"
+                  loading="lazy"
+                />
+              </div>
+              <div class="col-10">
+                <h3>Fascinating Sound</h3>
+                <p>
+                  Description lorem20 maybeLorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Excepturi ratione voluptates
+                  quos consectetur totam similique tempora odio praesentium
+                  inventore expedita.
+                </p>
+                <p>Learn more<i class="bi bi-arrow-right-short"></i></p>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-4 mt-4">
+            <a href="#" class="row text-decoration-none">
+              <div class="col-2 col-sm-12 mb-4">
+                <img
+                  src="/assets/images/bundo-kim-2AFuA0FNwEI-unsplash.jpg"
+                  alt="bamboo"
+                  class="img-fluid"
+                  width="5184"
+                  height="3456"
+                  loading="lazy"
+                />
+              </div>
+              <div class="col-10">
+                <h3>Fascinating Sound</h3>
+                <p>
+                  Description lorem20 maybeLorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Excepturi ratione voluptates
+                  quos consectetur totam similique tempora odio praesentium
+                  inventore expedita.
+                </p>
+                <p>Learn more<i class="bi bi-arrow-right-short"></i></p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          id="navbar_closeBtn"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+          aria-controls="navbar"
+          aria-expanded="false"
+          aria-label="toggle-navigation"
+        >
+          <i class="bi bi-x-lg"></i>
+        </button>
+      </div>
     </nav>
+
+    <!-- NavBar End-->
+
+    <!--Hero Section Starts-->
+
+    <section class="hero">
+      <div class="hero_overlay"></div>
+      <video
+        placeinline="playsinline"
+        autoplay="autoplay"
+        muted="muted"
+        loading="lazy"
+        loop="loop"
+        class="hero_video"
+      >
+        <source
+          src="assets/images/pexels-anastasia-shuraeva-6013209.mp4"
+          type="video/mp4"
+        />
+      </video>
+
+      <div class="hero_content h-100 container-custom position-relative">
+        <div class="d-flex h-100 align-items-center hero_content_width">
+          <div class="text-white">
+            <h1 class="fw-bold mb-4 hero_heading">
+              Discover Teh Fascinating Sound of Ney
+            </h1>
+            <p class="lead mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+              neque.
+            </p>
+            <a href="#" class="mt-2 btn btn-lg btn-outline-light" role="button"
+              >Listen Now</a
+            >
+          </div>
+        </div>
+      </div>
+      <a href="#scroll-dwon" class="hero_scroll_btn">
+        Dive In <i class="bi bi-arrow-down-short"></i
+      ></a>
+    </section>
 
     <!-- Bootstrap JavaScript-->
     <script
