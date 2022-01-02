@@ -56,6 +56,9 @@
 
   --font-family: 'Montserrat', sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 a {
   color: var(--clr-primary-1);
@@ -186,7 +189,7 @@ hero_content_width {
   position: absolute;
   left: 50%;
   bottom: 30px;
-  transform: translate(-50);
+  transform: translateX(-50%);
   z-index: 1;
   color: white;
   display: flex;
@@ -210,5 +213,32 @@ hero_content_width {
   }
   to {
     transform: translateY(-10px);
+  }
+}
+
+/* cards section */
+
+.cards {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.cards_section-image {
+  height: 240px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.cards_content-width {
+  max-width: 456px;
+  margin: 0 auto;
+}
+
+@media (min-width: 544px) {
+  .cards {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .cards_section-image {
+    height: auto;
   }
 }
