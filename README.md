@@ -2,7 +2,7 @@
 
 <h2 align="center"> Ney the Bamboo</h2>
 <p align="center">
-    <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>  
+    <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
     <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
 
 </p>
@@ -21,7 +21,7 @@ Simple one-page landing page utilizing Bootstrap 5 to the fullest extend. The ma
 
 ## Preview
 
-![gif]() Add gif here
+![gif](https://github.com/benkaan001/Ney/blob/main/assets/demo.gif)
 
 ## Demo
 
